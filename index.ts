@@ -1,5 +1,5 @@
 require("dotenv").config();
-const connectDB = require('./config/db'); 
+import connectDB from './config/db'; 
 import { Request, Response } from 'express';
 // import { getReviewCount } from './controllers/review';
 const express = require("express");
