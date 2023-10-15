@@ -1,9 +1,9 @@
 require("dotenv").config();
-import connectDB from './config/db'; 
+const connectDB = require('./config/db'); 
 import { Request, Response } from 'express';
 // import { getReviewCount } from './controllers/review';
 const express = require("express");
-import {main} from './tests/scrapper.spec'
+const {main} = require('./tests/scrapper.spec') 
 const bodyParser = require("body-parser");
 const cors=require("cors");
 const corsOptions ={
